@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>She Codes Weather Prediction</title>
+    <style>
+      button {
+        color: white;
+        padding: 18px;
+        background-color: rgb(26, 100, 214);
+        border-radius: 30px;
+        border: 1px solid #1a64d6;
+        width: 130px;
+        font-size: 16px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+        margin: 15px 0px 0px 0px;
+      }
+      button:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(26, 100, 214);
+      }
+      .container {
+        text-align: center;
+      }
+      .title {
+        color: rgb(26, 100, 214);
+        font-family: arial;
+      }
+      .temp {
+        font-family: Arial;
+        font-weight: lighter;
+      }
+      .box {
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+        border-radius: 10px;
+      }
+      .box:hover {
+        background-color: #fffbef;
+      }
+      .date {
+        font-size: 18.72px;
+        font-family: arial;
+        font-weight: bold;
+      }
+      .gray {
+        font-family: consolas;
+        font-size: 18px;
+        color: rgb(85, 84, 80);
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .footer {
+        font-family: monospace;
+        color: rgb(85, 84, 80);
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>⛅</h1>
+      <h1 class="title">Currently 21° in Tokyo</h1>
+      <h1 class="temp">13° / <span class="bold">23°</span></h1>
+      <div class="box">
+        <p class="date">🌧️Tomorrow</p>
+        <p class="gray">10° / <span class="bold">22°</span></p>
+      </div>
+      <div class="box">
+        <p class="date">🌥️Saturday</p>
+        <p class="gray">15° / <span class="bold">17°</span></p>
+      </div>
+      <div class="box">
+        <p class="date">☀️Sunday</p>
+        <p class="gray">25° / <span class="bold">28°</span></p>
+      </div>
+      <button>Change City</button>
+      <p class="footer">Coded by Ruth Moses is Jesus Baby</p>
+    </div>
+  </body>
+</html>
